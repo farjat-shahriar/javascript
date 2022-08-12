@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>javascript settimeout, cleartimeout</title>
+</head>
+<body>
+    <div class="container">
+      time now is <span id="time"></span>
+
+    </div>
+    <script>
+        console.log("this is tutorial 58"); 
+        // // settimeout fun ke 1 bar run koprai
+        // cleartime out fun ke repetatly run korai
+       function greet(name){
+            console.log("good morning" + name);
+        }
+    //    setTimeout(greet , 5000 , " joy");
+            
+    //     function greet(name){
+    //         console.log("good morning" + name);
+    //     }
+    //    timeOut = setTimeout (greet , 5000 , " joy");
+    //    console.log(timeOut);
+    //    clearTimeout(timeOut);
+    // setInterval(greet, 1000);
+    // clearInterval(greet, 1000);
+            
+     function displaytime()
+     {
+         time = new Date();
+         console.log(time);
+         document.getElementById('time').innerHTML = time;
+     }
+     setInterval(displaytime, 1000); 
+    </script>
+</body>
+</html>

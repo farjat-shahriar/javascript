@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>math object</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>this is math obj</h1>
+    </div>
+    <script>
+        //math obj printing
+        let m = Math;
+        console.log(m);
+        //printing constants math obj
+        console.log("the value of math e is", Math.E)
+        console.log("the value of math pi is", Math.PI)
+        console.log("the value of math ln2 is", Math.LN2)
+        console.log("the value of math log2e  is", Math.LOG2E)
+        // printing the function from math obj
+
+        let a = 34.64;
+        let b = 89.66;
+        console.log("the value of a and b is", a, b);
+        console.log("the value of a and b round is", Math.round(a), Math.round(b));
+
+        console.log("3 rased 2 the pow", Math.pow(3, 2));
+        console.log("2 rased 12 the pow", Math.pow(2, 12));
+        console.log("srq root 36 is", Math.sqrt(36));
+
+
+        //cell and floor
+        console.log(" 5.8 rounded up to naearest value", Math.ceil(5.8));
+        console.log(" 5.8 rounded up to naearest down value", Math.floor(5.8));
+
+        //abs function
+        console.log("absolute value of 5.66 is ", Math.abs(5.66));
+        console.log("absolute value of - 5.66 is ", Math.abs(-5.66));
+        //trinonomectric function
+        console.log("the value of sin(pi) is", Math.sin(Math.PI / 2));
+        console.log("the value of cos(pi) is", Math.cos(Math.PI / 2));
+        console.log("the value of tan(pi) is", Math.tan(Math.PI / 2));
+        
+
+        //min and max func
+        console.log("minimum value of 4,5 ,6 ", Math.min(4,5,6));
+        console.log("maximum value of 4,5 ,6 ", Math.max(4,5,6));
+
+        //generating a rendom number
+        let r = Math.random();
+        console.log("the random number is ", r);
+
+
+        let x = 1;
+        let y = 100;
+        let r1 = x + (y-x)*Math.random();
+        console.log("the random num is" ,r1);
+    </script>
+</body>
+
+</html>

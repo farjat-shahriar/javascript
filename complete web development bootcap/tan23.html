@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>media quary</title>
+</head>
+<style>
+    .box{
+        font-size: 22px;
+        text-align: center;
+        background-color: red;
+        color: white;
+        display: none;
+
+    }
+   @media (maz-width:300px){
+       #box1{
+           display: block;
+       }
+   }
+   @media (maz-width:500px) and (min-width:300){
+       #box2{
+           display: block;
+       }
+   }
+</style>
+<body>
+    <div class="box" id="box1">it is a iphone</div>
+    <div class="box" id="box2">it is a tab</div>
+    <div class="box" id="box3">it is a computer</div>
+    <div class="box" id="box4">it is a laptop</div>
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>javascript string function</title>
+</head>
+<body>
+    <script>
+        var str = "this is a string";
+        console.log(str);
+        //FIRST OCCURENCE OF A SUBSTRING
+        var position = str.indexOf('is');
+        console.log(position);
+        position = str.lastIndexOf('is');
+        console.log(position);
+        //substring from a string
+        //n,n-1 
+        var substr = str.slice(1,6);
+        console.log(substr);
+        var substr1 = str.substr(1,6);
+        console.log(substr1);
+        var replace = str.replace('string', 'joy');
+        console.log(replace);
+
+        console.log(str.toUpperCase());
+        console.log(str.toLowerCase());
+
+        var newstring = str.concat ('  new string');
+        console.log(newstring);
+
+        var whitespaces= "              this contain       spaces      ";
+        console.log(whitespaces);
+
+        //trim kaj kore hosse samnser o ses er space e dur kore print kore
+       // console.log(whitespaces.trim());
+
+        var charr = str.charAt(2);
+        console.log(charr);
+
+        
+        var charr = str.charCodeAt(2); // not important
+
+        console.log(charr);
+        console.log(str[8]);
+
+    </script>
+</body>
+</html>

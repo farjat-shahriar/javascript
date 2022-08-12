@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>possitioning</title>
+    <style>
+        /* position:static,absolute,relative */
+        .box{
+            border: 2px solid red;
+            width: 150px;
+            height: 150px;
+            margin: 2px;
+            display: inline-block; 
+
+        }
+        #box3{
+            /* ager possition a jodi gap chai tahole relative use korbo or noito absolute */
+            /* position: relative; */
+            /* position: absolute; */
+            /* position: static; */
+            /* position: fixed; */
+            position: sticky;
+            top:3px
+            /* bottom: 2px;
+            right: 4px; */
+            /* top:35px;
+            left: 134px; */
+
+            }
+            .container{
+                background-color: sandybrown;
+                height: 844px;
+            }
+            
+    </style>
+
+</head>
+<body>
+<div class="container">
+
+    <div class="box" id="box1">1</div>
+    <div class="box" id="box2">2</div>
+    <div class="box" id="box3">chat with us</div>
+    <div class="box" id="box4">4</div>
+</div>
+</body>
+</html>

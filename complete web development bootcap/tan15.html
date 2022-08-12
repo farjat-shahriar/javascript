@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>psudo selectors and more design</title>
+      <style>
+          .container{
+              border: 2px solid green;
+              padding: 3px 30px;
+              margin:auto;
+              background-color:  rgb(91, 91, 145);
+              width: 380px ;
+          }
+          a{
+              text-decoration: none;
+              color: black;
+          }
+          a:hover{
+              /* color: green; */
+              background-color: black;
+          }
+       a:visited{
+          color: rgb(180, 154, 154);
+          /* background-color: blue; */
+       }
+       a:active{
+          background-color:  green;
+       }
+          .btn{
+             background-color: gray;
+              padding: 1px 2px;
+              margin: 2px 5px;
+              border: none;
+              cursor: pointer;
+              font-size: 13px;
+            border-radius: 4px;
+            
+          }
+          .btn:hover{
+              color: green;
+              background-color: rgb(12, 65, 87);
+          }
+          h3{
+              padding: 2px 122px;
+              margin: 1px 3px;
+          }
+         
+      </style>
+</head>
+
+<body>
+    <div class="container" id="cont1">
+        <h3>this is hadding</h3>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti dicta veritatis nulla! Perferendis nihil
+            commodi corrupti id sed sunt exercitationem in. Ad voluptates ratione obcaecati expedita sunt doloribus fuga
+            et eius distinctio?</p>
+
+           <a href="https://google.com" class="btn">Read more</a> 
+         <button class="btn">contact us</button>
+    </div>
+</body>
+
+</html>
